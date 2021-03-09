@@ -51,9 +51,9 @@ export default {
         $menu._hide();
         // Redirect.
         if (href == "#menu") return;
-        window.setTimeout(function() {
-          window.location.href = href;
-        }, 350);
+        // window.setTimeout(function() {
+        //   window.location.href = href;
+        // }, 350);
       })
       .append('<a class="close" href="#menu">Close</a>');
 
