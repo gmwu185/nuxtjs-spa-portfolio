@@ -2,10 +2,10 @@
   <header id="header">
     <div class="inner">
       <!-- Logo -->
-      <a href="index.html" class="logo">
+      <nuxt-link to="/" class="logo">
         <span class="symbol"><img src="~/assets/images/logo.svg" alt=""/></span
         ><span class="title">Phantom</span>
-      </a>
+      </nuxt-link>
 
       <!-- Nav -->
       <nav>
