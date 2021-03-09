@@ -23,13 +23,21 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      {src : "/js/jquery.min.js" , body: true},
+      {src : "/js/browser.min.js", body: true},
+      {src : "/js/breakpoints.min.js", body: true},
+      {src : "/js/util.js", body: true},
+      {src : "/js/main.js", body: true}
+    ],
   },
   /*
   ** Global CSS
   */
   css: [
-  ],
+    "~/assets/sass/main.scss"
+  ],  
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins

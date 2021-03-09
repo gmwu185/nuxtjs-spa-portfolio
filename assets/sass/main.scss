@@ -1,10 +1,10 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/breakpoints';
-@import 'libs/html-grid';
-@import 'fontawesome-all.min.css';
+@import '~assets/sass/libs/vars';
+@import '~assets/sass/libs/functions';
+@import '~assets/sass/libs/mixins';
+@import '~assets/sass/libs/vendor';
+@import '~assets/sass/libs/breakpoints';
+@import '~assets/sass/libs/html-grid';
+@import '../css/fontawesome-all.min.css'; // @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
 
 /*

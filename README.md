@@ -1,5 +1,9 @@
 # nuxt_demo
 
+## 使用版本
+- node v12.16.0
+- npm v6.13.4
+
 ## Build Setup
 
 ```bash
