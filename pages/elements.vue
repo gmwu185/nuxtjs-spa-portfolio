@@ -500,16 +500,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
   </div>
 </template>
 
-<script>
-import Header from "~/components/Header.vue";
-import Menu from "~/components/Menu.vue";
-import Footer from "~/components/Footer.vue";
+// <script>
+// import Header from "~/components/Header.vue";
+// import Menu from "~/components/Menu.vue";
+// import Footer from "~/components/Footer.vue";
 
-export default {
-  components: {
-    Header,
-    Menu,
-    Footer
-  }
-};
-</script>
+// export default {
+//   components: {
+//     Header,
+//     Menu,
+//     Footer
+//   }
+// };
+// </script>
