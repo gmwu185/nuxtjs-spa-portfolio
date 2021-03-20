@@ -3,8 +3,10 @@
     <div class="inner">
       <!-- Logo -->
       <nuxt-link to="/" class="logo">
-        <span class="symbol"><img src="~/assets/images/logo.svg" alt=""/></span
-        ><span class="title">Phantom</span>
+        <span class="symbol">
+          <img src="~/assets/images/原-VI_black.png" alt="" />
+        </span>
+        <span class="title">原</span><span class="title__sub">﹙設計﹚</span>
       </nuxt-link>
 
       <!-- Nav -->

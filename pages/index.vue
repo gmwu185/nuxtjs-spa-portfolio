@@ -10,10 +10,10 @@
     <div id="main">
       <div class="inner">
         <header>
-          <h1>
+          <!-- <h1>
             This is Phantom, a free, fully responsive site<br />
             template designed by <a href="http://html5up.net">HTML5 UP</a>.
-          </h1>
+          </h1> -->
           <p>
             Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
             amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis
@@ -24,171 +24,171 @@
         <section class="tiles">
           <article class="style1">
             <span class="image">
-              <img src="~/assets/images/pic01.jpg" alt="" />
+              <img src="~/assets/images/Flex修煉時光屋-首頁列表--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Magna</h2>
+            <nuxt-link to="generic">
+              <h2>Flex修煉時光屋</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
           <article class="style2">
             <span class="image">
-              <img src="~/assets/images/pic02.jpg" alt="" />
+              <img src="~/assets/images/口罩地圖(OpenStreetMap&Leaflet)--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Lorem</h2>
+            <nuxt-link to="generic">
+              <h2>口罩地圖 (OpenStreetMap & Leaflet)</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
           <article class="style3">
             <span class="image">
-              <img src="~/assets/images/pic03.jpg" alt="" />
+              <img src="~/assets/images/VueJS Component AQI AJAX--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Feugiat</h2>
+            <nuxt-link to="generic">
+              <h2>AJAX 介接台灣縣市空氣品質 (VueJS Component AQI AJAX)</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
           <article class="style4">
             <span class="image">
-              <img src="~/assets/images/pic04.jpg" alt="" />
+              <img src="~/assets/images/六角學院使用自製flexGrid--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Tempus</h2>
+            <nuxt-link to="generic">
+              <h2>六角學院 (使用自製 flexGrid)</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
           <article class="style5">
             <span class="image">
-              <img src="~/assets/images/pic05.jpg" alt="" />
+              <img src="~/assets/images/六角學院．2020春季網頁切版直播班第一週-個人履歷--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Aliquam</h2>
+            <nuxt-link to="generic">
+              <h2>六角學院．2020春季網頁切版直播班第一週-個人履歷</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
           <article class="style6">
             <span class="image">
-              <img src="~/assets/images/pic06.jpg" alt="" />
+              <img src="~/assets/images/六角學院．2020春季網頁切版直播班第二週-個人網站--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Veroeros</h2>
+            <nuxt-link to="generic">
+              <h2>六角學院．2020春季網頁切版直播班第二週-個人網站</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
-          </article>
-          <article class="style2">
-            <span class="image">
-              <img src="~/assets/images/pic07.jpg" alt="" />
-            </span>
-            <a href="generic.html">
-              <h2>Ipsum</h2>
-              <div class="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </a>
-          </article>
-          <article class="style3">
-            <span class="image">
-              <img src="~/assets/images/pic08.jpg" alt="" />
-            </span>
-            <a href="generic.html">
-              <h2>Dolor</h2>
-              <div class="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </a>
+            </nuxt-link>
           </article>
           <article class="style1">
             <span class="image">
-              <img src="~/assets/images/pic09.jpg" alt="" />
+              <img src="~/assets/images/六角學院．2020春季網頁切版直播班第三週-RWD網站-眼鏡品牌形象網站--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Nullam</h2>
+            <nuxt-link to="generic">
+              <h2>六角學院．2020春季網頁切版直播班第三週-RWD網站-眼鏡品牌形象網站</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
-          <article class="style5">
+          <article class="style2">
             <span class="image">
-              <img src="~/assets/images/pic10.jpg" alt="" />
+              <img src="~/assets/images/六角學院．2020春季網頁切版直播班第五週-後台表單設計__Assignment--全頁.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Ultricies</h2>
+            <nuxt-link to="generic">
+              <h2>六角學院．2020春季網頁切版直播班第五週-後台表單設計</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
-          <article class="style6">
+          <article class="style3">
             <span class="image">
-              <img src="~/assets/images/pic11.jpg" alt="" />
+              <img src="~/assets/images/六角學院．2020春季網頁切版直播班第六週-電商版型+第七週-視差滾動--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Dictum</h2>
+            <nuxt-link to="generic">
+              <h2>六角學院．2020春季網頁切版直播班第六週-電商版型+第七週-視差滾動</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
           </article>
           <article class="style4">
             <span class="image">
-              <img src="~/assets/images/pic12.jpg" alt="" />
+              <img src="~/assets/images/六角學院．2020夏季班JavaScript實戰直播班第一週-關注點分離-Todo List--主視覺區塊.png" alt="" />
             </span>
-            <a href="generic.html">
-              <h2>Pretium</h2>
+            <nuxt-link to="generic">
+              <h2>六角學院．2020夏季班JavaScript實戰直播班第一週-關注點分離-Todo List</h2>
               <div class="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
                   et feugiat.
                 </p>
               </div>
-            </a>
+            </nuxt-link>
+          </article>
+          <article class="style5">
+            <span class="image">
+              <img src="~/assets/images/六角學院．2020夏季班JavaScript實戰直播班第二週-課程API串接-axiosAJAX--主形象區塊.png" alt="" />
+            </span>
+            <nuxt-link to="generic">
+              <h2>六角學院．2020夏季班JavaScript實戰直播班第二週-課程API串接-axiosAJAX</h2>
+              <div class="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </nuxt-link>
+          </article>
+          <article class="style6">
+            <span class="image">
+              <img src="~/assets/images/高雄旅遊資訊網_kaohsiungTravel--主視覺區塊.png" alt="" />
+            </span>
+            <nuxt-link to="generic">
+              <h2>高雄旅遊資訊網 (kaohsiungTravel)</h2>
+              <div class="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </nuxt-link>
           </article>
         </section>
       </div>
@@ -214,34 +214,4 @@ export default {
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

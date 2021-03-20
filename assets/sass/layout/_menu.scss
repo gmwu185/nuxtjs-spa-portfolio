@@ -6,10 +6,10 @@
 
 /* Menu */
 
-	#wrapper {
-		@include vendor('transition', 'opacity #{_duration(menu)} ease');
-		opacity: 1;
-	}
+	// #wrapper {
+	// 	@include vendor('transition', 'opacity #{_duration(menu)} ease');
+	// 	opacity: 1;
+	// }
 
 	#menu {
 		@include vendor('transform', 'translateX(#{_size(menu)})');

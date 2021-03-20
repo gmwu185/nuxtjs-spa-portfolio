@@ -1,5 +1,9 @@
 # nuxt_demo
 
+## 啟用頁面路徑
+- `npm run dev`：<webServerUrlName & port>/nuxtjs-spa-portfolio/
+- `GitPage url`：[https://gmwu185.github.io/nuxtjs-spa-portfolio/](https://gmwu185.github.io/nuxtjs-spa-portfolio/)
+
 ## 使用版本
 - node v12.16.0
 - npm v6.13.4

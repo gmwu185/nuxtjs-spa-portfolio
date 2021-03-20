@@ -7,7 +7,8 @@
 /* Header */
 
 	#header {
-		@include padding(5em, 0, (3em, 0, -5em, 0));
+		padding-top: 30px;
+		padding-bottom: 30px;
 
 		.logo {
 			display: block;
@@ -15,7 +16,7 @@
 			color: inherit;
 			font-weight: _font(weight-bold);
 			letter-spacing: _font(letter-spacing);
-			margin: 0 0 (_size(element-margin) * 1.25) 0;
+			margin: 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -30,8 +31,8 @@
 
 				img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 5em;
+					height: 5em;
 				}
 			}
 		}
