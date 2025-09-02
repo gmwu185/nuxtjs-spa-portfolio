@@ -23,6 +23,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+		font-weight: normal;
 		vertical-align: baseline;
 	}
 
@@ -73,4 +74,8 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
+	}
+
+	span {
+		font-weight: inherit;
 	}

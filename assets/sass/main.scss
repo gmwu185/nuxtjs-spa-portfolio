@@ -1,10 +1,7 @@
-@import '~assets/sass/libs/vars';
-@import '~assets/sass/libs/functions';
-@import '~assets/sass/libs/mixins';
-@import '~assets/sass/libs/vendor';
-@import '~assets/sass/libs/breakpoints';
-@import '~assets/sass/libs/html-grid';
-@import '~assets/sass/libs/html-grid';
+/*=============================================
+=                   webfont & fonts                   =
+=============================================*/
+
 @import '../css/fontawesome-all.min.css'; // @import 'fontawesome-all.min.css';
 // 台北黑體
 @import '../css/taipei-sans-tc.css';
@@ -12,6 +9,21 @@
 @import '../css/TaipeiSansTCBeta-Light.css';
 // /台北黑體
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
+
+/*============  End of webfont & fonts  =============*/
+
+
+
+/*=============================================
+=                   theme                   =
+=============================================*/
+
+@import '~assets/sass/libs/vars';
+@import '~assets/sass/libs/functions';
+@import '~assets/sass/libs/mixins';
+@import '~assets/sass/libs/vendor';
+@import '~assets/sass/libs/breakpoints';
+@import '~assets/sass/libs/html-grid';
 
 /*
 	Phantom by HTML5 UP
@@ -59,50 +71,39 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 
-
-	.container {
-		margin: 0 auto;
-		min-height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	
-	.title {
-		// font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-		// 	"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-		display: block;
-		font-weight: 300;
-		font-size: 50px;
-		color: #35495e;
-		letter-spacing: 1px;
-	}
-	
-	.subtitle {
-		font-weight: 300;
-		font-size: 42px;
-		color: #526488;
-		word-spacing: 5px;
-		padding-bottom: 15px;
-	}
-	
-	.links {
-		padding-top: 15px;
-	}
+/*============  End of theme  =============*/
 
 
-/* nuxt 頁面過渡 - vue transition ----------------------------------------------- */
-.page-enter-active,
-.page-leave-active {
-  transition: opacity 0.27s;
-}
-.page-enter,
-.page-leave-active {
-  opacity: 0;
+
+/*=============================================
+=                   vendors                   =
+=============================================*/
+
+// BS 4.6.0
+@import 'vendors/bs4_6/variables';
+@import 'vendors/bs4_6/mixins/breakpoints';
+@import 'vendors/bs4_6/utilities/spacing';
+@import 'vendors/bs4_6/utilities/display';
+@import 'vendors/bs4_6/utilities/text';
+// /BS 4.6.0
+
+// nuxt
+@import 'vendors/nuxt/vueTransition';
+// /nuxt
+
+/*============  End of vendors  =============*/
+
+
+
+/*=============================================
+=                   utils                   =
+=============================================*/
+
+@import 'utils/u-font';
+@import 'utils/u-sizing';
+.u-listStyle--none {
+	list-style: none;
 }
 
 
-.u-fontFamily--TaipeiSansTC {
-	font-family: Taipei Sans TC, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
+/*============  End of utils  =============*/

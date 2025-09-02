@@ -1,0 +1,29 @@
+.u-maxw {
+  &--150-px {
+    max-width: 150px;
+  }
+  &--200-px {
+    max-width: 200px;
+  }
+  &--250-px {
+    max-width: 250px;
+  }
+  &--300-px {
+    max-width: 300px;
+  }
+  &--350-px {
+    max-width: 350px;
+  }
+  &--400-px {
+    max-width: 400px;
+  }
+  &--650-px {
+    max-width: 650px;
+  }
+}
+
+.u-minh {
+  &--80-vh {
+    min-height: 80vh;
+  }
+}

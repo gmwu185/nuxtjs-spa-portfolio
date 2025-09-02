@@ -18,7 +18,7 @@ export default {
     base: '/nuxtjs-spa-portfolio/'
   },
   head: {
-    title: process.env.npm_package_name || '',
+    title: '原網頁前端作品集 | yuan-webFrontend-portfolios', // title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

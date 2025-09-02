@@ -1,12 +1,9 @@
 <template>
-  <header id="header">
+  <header id="header" class="mb-3">
     <div class="inner">
       <!-- Logo -->
       <nuxt-link to="/" class="logo">
-        <span class="symbol">
-          <img src="~/assets/images/原-VI_black.png" alt="" />
-        </span>
-        <span class="title">原</span><span class="title__sub">﹙設計﹚</span>
+        <span class="symbol mr-1"><img src="~/assets/images/原-VI_black.png" alt="" /></span><span class="title">Yuan Web Frontend Portfolios</span>
       </nuxt-link>
 
       <!-- Nav -->

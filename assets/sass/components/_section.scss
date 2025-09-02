@@ -13,13 +13,13 @@
 	}
 
 	header {
-		p {
-			margin-top: _size(element-margin) * -0.5;
-		}
+		// p {
+		// 	margin-top: _size(element-margin) * -0.5;
+		// }
 
-		@include breakpoint('<=small') {
-			p {
-				margin-top: 0;
-			}
-		}
+		// @include breakpoint('<=small') {
+		// 	p {
+		// 		margin-top: 0;
+		// 	}
+		// }
 	}

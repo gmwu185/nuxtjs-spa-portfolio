@@ -185,9 +185,9 @@
 			}
 		}
 
-		* + & {
-			margin-top: _size(element-margin);
-		}
+		// * + & {
+		// 	margin-top: _size(element-margin);
+		// }
 
 		body.is-preload & {
 			article {

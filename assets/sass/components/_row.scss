@@ -9,6 +9,10 @@
 	.row {
 		@include html-grid(2em);
 
+		/*=============================================
+		=                   原本格線系統 max 寫法                   =
+		=============================================*/
+		
 		@include breakpoint('<=xlarge') {
 			@include html-grid(2em, 'xlarge');
 		}
@@ -28,4 +32,39 @@
 		@include breakpoint('<=xsmall') {
 			@include html-grid(1em, 'xsmall');
 		}
+		
+		/*============  End of 原本格線系統 max 寫法  =============*/
+		
+		/*=============================================
+		=                   新修格線系統使用 min 寫法                   =
+		=============================================*/
+		
+		// min-width: 361px
+		@include breakpoint('>=xsmall') {
+			@include html-grid(1em, 'xsmall--min');
+		}
+
+		// min-width: 737px
+		@include breakpoint('>=small') {
+			@include html-grid(1em, 'small--min');
+		}
+
+		// min-width: 918px
+		@include breakpoint('>=medium') {
+			@include html-grid(1.5em, 'medium--min');
+		}
+		
+		// min-width: 1281px
+		@include breakpoint('>=large') {
+			@include html-grid(2em, 'large--min');
+		}
+
+		// min-width: 1681px
+		@include breakpoint('>=xlarge') {
+			@include html-grid(2em, 'xlarge--min');
+		}
+
+
+		/*============  End of 新修格線系統使用 min 寫法  =============*/
+
 	}

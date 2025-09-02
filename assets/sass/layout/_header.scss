@@ -14,26 +14,30 @@
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: _font(weight-bold);
-			letter-spacing: _font(letter-spacing);
+			// font-weight: _font(weight-bold);
+			// letter-spacing: _font(letter-spacing);
 			margin: 0;
 			text-decoration: none;
-			text-transform: uppercase;
+			// text-transform: uppercase;
 			display: inline-block;
 
 			> * {
 				display: inline-block;
-				vertical-align: middle;
+				vertical-align: bottom;
 			}
 
 			.symbol {
-				margin-right: 0.65em;
+				// margin-right: 0.65em;
 
 				img {
 					display: block;
 					width: 5em;
 					height: 5em;
 				}
+			}
+
+			.title {
+				line-height: 100%;
 			}
 		}
 
