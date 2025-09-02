@@ -40,7 +40,7 @@ export default {
   */
   css: [
     "~/assets/sass/main.scss",
-  ],  
+  ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
@@ -67,5 +67,12 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+  },
+  /*
+  ** Generate configuration
+  ** See https://nuxtjs.org/api/configuration-generate/
+  */
+  generate: {
+    dir: 'docs'
   }
 }
